@@ -1,0 +1,264 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/ HTML5 display-role reset for older browsers /
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+header{
+background-image: url(img.jpg);
+height: 800px;
+background-size: cover;
+
+}
+body{
+
+}
+.h1-container{
+  display: flex;
+  justify-content: center;
+  background-color: #90a038;
+  margin-right:3%;
+  margin-left: 85%;
+  text-align: right;
+  height:50px;
+  align-items: center;
+  font-family: 'Lato', sans-serif;
+}
+
+
+.nav-botom-container{
+  display: flex;
+  background-color:#066a82;
+  justify-content: space-around;
+  margin-left: 3%;
+  margin-right: 3%;
+
+}
+.logo-container img{
+  height:70px;
+  width:150px;
+
+}
+.links-container{
+margin-right: 200px;
+}
+.links-container a{
+  display: flex;
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Lato', sans-serif;
+
+}
+.button-1{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-top: -250px;
+  justify-content: space-around;
+  margin-left: 390px;
+
+}
+.button-1 button{
+height: 100px;
+width:200px;
+background-color: #90a038;
+font-size: 30px;
+}
+.icon-container{
+  text-decoration: none;
+
+}
+.icon-container a i{
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+
+}
+.flex-2-container h1{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 40px;
+  margin: 15%;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+.menu-1-container{
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  margin-left:100px ;
+  margin-right:100px ;
+  height:400px ;
+}
+.menu-1-container h1  {
+display: flex;
+justify-content: space-around;
+margin-top: 50px;
+font-size: 30px;
+}
+.menu-1-container p{
+  display: flex;
+  justify-content: center;
+
+}
+.image-container-fluid img{
+  display: flex;
+  display:inline-flex;
+  height: 300px;
+  width: 370px;
+}
+
+.heading{
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+
+}
+.heading a button{
+  text-decoration: none;
+ color: grey;
+ height: 100px;
+ width: 350px;
+ border-bottom: 0;
+}
+
+.heading h1{
+  font-size: 30px;
+  padding: 50px;
+  margin-top: -160px;
+}
+.headings-container{
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+  font-size: 19px;
+  font-family: 'Lato', sans-serif;
+}
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+.flex-container h1{
+  font-size: 40px;
+  font-family: 'Archivo Black', sans-serif;
+  color: #363636;
+}
+.flex-container p{
+  font-family: 'Archivo Black', sans-serif;
+  color: #363636;
+  f
+}
+.flex-container i{
+  font-size: 40px;
+  color: ;
+
+}
+.heading-1-container{
+  border: 1px solid black;
+  width: 1000px;
+  background-color: #0e6b88;
+  font-family: 'Heebo', sans-serif;
+  color:white;
+}
+.heading-2-container{
+  border: 1px solid black;
+  width: 1000px;
+  background-color: #90a038;
+}
+.image-2-container{
+  border: 1px solid black;
+  width: 1000px;
+  background-image: url(/images/people-3.jpg);
+  background-size: cover;
+}
+.heading-3-container{
+  border: 1px solid black;
+  width: 1000px;
+  color: white;
+  background-color: #363636;
+
+}
+.button{
+  text-align: center;
+text-decoration: none;
+
+ border-bottom: 0;
+}
+.button a button{
+  height: 120px;
+  width: 400px;
+  font-family: 'Lato', sans-serif;
+
+}
+.button h1{
+  font-size: 30px;
+  color: #363636;
+
+  margin-top: -50px;
+}
+.profiles-container {
+display: flex;
+justify-content: space-between;
+}
+.jenny-container {
+  display: flex;
+}
+
+.profiles-container img{
+  height: 200px;
+  width:200px;
+}
+.type{
+  margin-top: 50px;
+  font-family: 'Lato', sans-serif;
+}
+.type a{
+  color: black
+}
+.type-container img{
+  height: 200px;
+  width:200px;
+  margin-left: 700px;
+}
+.word a{
+  color: black;
+}
